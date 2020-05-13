@@ -9,10 +9,63 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{584edaed-0a40-45aa-86c2-d46a67311cca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\zlog\test\test_hello.c">
       <Filter>SourceFiles</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\zlog\test\test_conf.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_default.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_hello.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_hex.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_init.2.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_init.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_leak.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_level.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_mdc.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_pipe.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_press_zlog.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_press_zlog2.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_profile.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_record.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_syslog.conf">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\zlog\test\test_tmp.conf">
+      <Filter>Resources</Filter>
+    </None>
   </ItemGroup>
 </Project>

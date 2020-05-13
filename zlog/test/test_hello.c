@@ -19,14 +19,15 @@
 
 #include <stdio.h>
 #include "zlog.h"
+#include <vld.h>
 
 int main(int argc, char** argv)
 {
 	int rc;
 	zlog_category_t *zc;
 
-	//rc = zlog_init(".\\test_hello.conf");
-	rc = zlog_init("");
+	rc = zlog_init(".\\test_hello.conf");
+	//rc = zlog_init("");
 	
 	if (rc) {
 		printf("init failed\n");
@@ -42,8 +43,7 @@ int main(int argc, char** argv)
 
 	zlog_info(zc, "hello, zlog");
 
-	zlog_fini();
-	getchar();
+    zlog_fini();
 	
 	return 0;
 }
