@@ -117,7 +117,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>pthreadVC3.lib;unixem.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>zlog.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>$(PTW32_ROOT)\DLL\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(PTW32_ROOT)\DLL\$(Platform)\$(Configuration);$(UNIXem_Root)\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy $(PTW32_ROOT)\DLL\$(Platform)\$(Configuration)\pthreadVC3.dll $(TargetDir)</Command>
@@ -136,7 +136,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>pthreadVC3.lib;unixem.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>zlog.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>$(PTW32_ROOT)\DLL\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(PTW32_ROOT)\DLL\$(Platform)\$(Configuration);$(UNIXem_Root)\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy $(PTW32_ROOT)\DLL\$(Platform)\$(Configuration)\pthreadVC3.dll $(TargetDir)</Command>
@@ -159,7 +159,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <ModuleDefinitionFile>zlog.def</ModuleDefinitionFile>
       <AdditionalDependencies>pthreadVC3.lib;unixem.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(PTW32_ROOT)\DLL\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(PTW32_ROOT)\DLL\$(Platform)\$(Configuration);$(UNIXem_Root)\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy $(PTW32_ROOT)\DLL\$(Platform)\$(Configuration)\pthreadVC3.dll $(TargetDir)</Command>
@@ -182,7 +182,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <ModuleDefinitionFile>zlog.def</ModuleDefinitionFile>
       <AdditionalDependencies>pthreadVC3.lib;unixem.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(PTW32_ROOT)\DLL\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(PTW32_ROOT)\DLL\$(Platform)\$(Configuration);$(UNIXem_Root)\lib\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy $(PTW32_ROOT)\DLL\$(Platform)\$(Configuration)\pthreadVC3.dll $(TargetDir)</Command>
