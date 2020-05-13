@@ -33,3 +33,5 @@ _testmain.go
 *.lastbuildstate
 *.suo
 *.exp
+/zlog/zlog.VC.db
+/zlog/zlog.VC.VC.opendb
