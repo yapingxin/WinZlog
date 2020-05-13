@@ -35,3 +35,5 @@ _testmain.go
 *.exp
 /zlog/zlog.VC.db
 /zlog/zlog.VC.VC.opendb
+/zlog/Output
+/zlog/IntDir
