@@ -25,6 +25,6 @@
 #include "zc_hashtable.h"
 #include "zc_xplatform.h"
 #include "zc_util.h"
-#define snprintf _snprintf_s 
+//#define snprintf _snprintf_s 
 
 #endif
